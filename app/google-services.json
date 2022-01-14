@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517904981568",
+    "project_id": "android-book-72af5",
+    "storage_bucket": "android-book-72af5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517904981568:android:12d73a6676d0be47c489a5",
+        "android_client_info": {
+          "package_name": "com.example.searchify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517904981568-eaptfgrhvvf0sc9bgg3bcfbnvjpir48s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn7a1a-qEbqY4WpXHuYCIUFAp449oKn0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517904981568-eaptfgrhvvf0sc9bgg3bcfbnvjpir48s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

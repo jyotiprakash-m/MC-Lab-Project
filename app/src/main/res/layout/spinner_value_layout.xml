@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+            <ImageView
+                android:id="@+id/spinnerImages"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/circleshapepink"/>
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/name_char_text"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/spinnerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/title_text_color"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="16sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/divider"
+            />
+
+
+
+    </TableRow>
+
+</TableLayout>

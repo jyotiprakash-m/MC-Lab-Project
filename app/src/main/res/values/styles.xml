@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Match 56dp default ActionBar height on portrait orientation -->
+
+    <!-- Nav drawer style to set width specified by Material Design specification -->
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+    <style name="chart_style">
+        <item name="android:layout_width">@dimen/chart_size</item>
+        <item name="android:layout_height">@dimen/chart_size</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/divider_color</item>
+
+    </style>
+
+    <style name="EmptySpace">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">#66000000</item>
+
+    </style>
+
+    <style name="HeaderText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dark_primary_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">Roboto-Light</item>
+    </style>
+
+    <style name="DarkRegularTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dark_primary_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">Roboto-Regular</item>
+    </style>
+
+    <!--<style name="NormalText">-->
+    <!--<item name="android:layout_width">match_parent</item>-->
+    <!--<item name="android:layout_height">wrap_content</item>-->
+    <!--<item name="android:textColor">@color/title_text_color</item>-->
+    <!--<item name="android:textStyle">normal</item>-->
+    <!--<item name="android:textSize">20sp</item>-->
+    <!--<item name="android:fontFamily">Roboto-Light</item>-->
+    <!--</style>-->
+
+    <style name="TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="TextViewSmall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="YourAnimation.Activity" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/move_right_out_activity</item>
+        <item name="android:windowExitAnimation">@anim/move_left_in_activity</item>
+    </style>
+
+    <style name="TransitionTheme" parent="android:Theme.Translucent">
+        <item name="android:windowAnimationStyle">@style/YourAnimation.Activity</item>
+    </style>
+
+
+    <style name="UserInfoText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/light_primary_text</item>
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">Roboto-Light</item>
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
+
+

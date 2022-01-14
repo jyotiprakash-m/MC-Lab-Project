@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Book Club</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+
+
+    <!--tab name-->
+    <string name="tab1">Home</string>
+    <string name="tab2">Books</string>
+    <string name="tab3">Requests</string>
+
+
+    <!--navigation drawer menu name-->
+    <string name="drawer_home">Home</string>
+    <string name="drawer_facebook">Facebook</string>
+    <string name="drawer_gPlus">Google+</string>
+    <string name="drawer_youtube">YouTube</string>
+    <string name="drawer_rate">Rate</string>
+    <string name="drawer_more">More</string>
+    <string name="drawer_share">Share</string>
+    <string name="drawer_exit">Exit</string>
+    <string name="drawer_profile">Profile</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="popular_books">Popular Books</string>
+    <string name="popular_channels">Popular Channels</string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+
+</resources>

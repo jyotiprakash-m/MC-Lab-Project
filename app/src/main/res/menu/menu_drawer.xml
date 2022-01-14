@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item-->
+            <!--android:id="@+id/drawer_home"-->
+            <!--android:icon="@drawable/ic_home"-->
+            <!--android:title="@string/drawer_home" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/drawer_profile"-->
+            <!--android:icon="@drawable/ic_profile"-->
+            <!--android:title="@string/drawer_profile" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/drawer_youtube"-->
+            <!--android:icon="@drawable/ic_youtube"-->
+            <!--android:title="@string/drawer_youtube" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/drawer_facebook"-->
+            <!--android:icon="@drawable/ic_facebook"-->
+            <!--android:title="@string/drawer_facebook" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/drawer_gPlus"-->
+            <!--android:icon="@drawable/ic_gplus"-->
+            <!--android:title="@string/drawer_gPlus" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/drawer_rate"-->
+            <!--android:icon="@drawable/ic_rate"-->
+            <!--android:title="@string/drawer_rate" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/drawer_more"-->
+            <!--android:icon="@drawable/ic_pref_more"-->
+            <!--android:title="@string/drawer_more" />-->
+
+
+
+        <!--<item-->
+            <!--android:id="@+id/drawer_share"-->
+            <!--android:icon="@drawable/ic_share"-->
+            <!--android:title="@string/drawer_share" />-->
+
+        <item
+            android:id="@+id/drawer_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/drawer_exit" />
+    </group>
+
+
+</menu>
